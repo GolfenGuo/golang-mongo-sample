@@ -8,6 +8,7 @@ import (
 )
 
 func init() {
+	log.Println("开始运行...")
 	Config()
 	MustConnectMongo()
 	InitDB()
